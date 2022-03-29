@@ -1,14 +1,14 @@
-header, #balls {
+header , #balls {
   text-align: center;
 }
 
 .ball {
-    border: solid black 1px;
-    border-radius: 100%;
-    height: 50px;
-    width: 50px;
-    display: inline-block;
-    margin: 40px 20px;
+  border: solid black 1px;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  margin: 40px 20px;
 }
 
 #answer {
