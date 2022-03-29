@@ -1,4 +1,4 @@
-header, main {
+header, #balls {
   text-align: center;
 }
 
@@ -9,4 +9,8 @@ header, main {
     width: 50px;
     display: inline-block;
     margin: 40px 20px;
+}
+
+#answer {
+  font-size: 25px;
 }
