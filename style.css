@@ -1,5 +1,16 @@
+body {
+  background-image: url("https://i.gifer.com/ViPW.gif");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+}
+
 header , #balls {
   text-align: center;
+}
+
+#title {
+  font-size: 70px;
 }
 
 .ball {
@@ -8,18 +19,59 @@ header , #balls {
   margin: 40px 20px;
 }
 
-#answer {
-  font-size: 25px;
+#answer, #score-text {
+  font-size: 30px;
 }
 
-.ball , #score {
+.ball {
   border: solid black 1px;
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
 }
 
 #score {
   margin: 10px;
   display: inline-block;
   text-align: center;
+  font-size: 30px;
+  height: 30px;
+  width: 60px;
+  border: solid 2px aliceblue;
+  background-color: aliceblue;
+  color: black;
+}
+
+#rgb-color {
+  font-size: 50px;
+}
+
+main {
+  border: solid 5px rgb(155, 157, 157);
+  background-color: rgb(240, 245, 249);
+  text-align: center;
+  padding: 50px;
+  width: 40%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+#container-placar {
+  display: flex;
+  /* border: solid 2px red; */
+  background-color: black;
+  color: aliceblue;
+  width: 150px;
+  align-items: center;
+  padding: 6px;
+  margin: 20px auto;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: aquamarine;
+  box-shadow: 5px 5px 5px rgb(46, 45, 45);
 }
